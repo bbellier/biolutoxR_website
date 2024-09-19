@@ -1,0 +1,10 @@
+---
+title: "Citation"
+output:
+  distill::distill_article:
+    toc: true
+---
+
+To cite this package, please use: in prep.
+
+Or use the "citation.biolutoxR()" function which print the same citation format.

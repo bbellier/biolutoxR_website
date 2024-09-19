@@ -1,0 +1,39 @@
+#Nom
+name: "biolutoxR.com"
+#Titre de la page à afficher
+title: "Home"
+#URL du site déployé par github
+base_url: "https://bbellier.github.io/biolutoxR_website/" 
+#URL du répertoire github
+repository_url: "https://github.com/bbellier/biolutoxR_website.com" 
+#Icone du site web
+favicon: icons/logo.ico
+#Fichier où déposer les documents créés lors de la création du site
+output_dir: "docs" 
+#Licence
+creative_commons: CC BY-SA
+#Thème à utiliser pour le site
+theme: style/style_biolutoxR.css 
+#Barre de navigation 
+navbar: 
+  search: false
+  #Afficher à gauche
+  left:
+    #Page(s) à afficher
+    - text: "About" #Texte à afficher
+      href: about.html #Référence html à utiliser
+    - text: "Functions" 
+      href: functions.html 
+    - text: "Example" 
+      href: example.html 
+    - text: "Citation" 
+      href: citation.html 
+  right:
+    - text: "Github"
+      href: "https://github.com/bbellier/biolutoxR_package"
+#Style à afficher en sortie      
+output: 
+  #Article distill
+  distill::distill_article:
+    #Style à utiliser
+    css: style/style_biolutoxR.css
