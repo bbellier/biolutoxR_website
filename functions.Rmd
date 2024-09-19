@@ -5,14 +5,16 @@ output:
     toc: true
 ---
 
+The *biolutoxR* package is composed of three main functions:
+
 example.biolutoxR()
 
-> Function for run the app with your own data
+> Serves to process data analysis with your own data
 
 run.biolutoxR()
 
-> Function for run the app with an preconstruct example
+> Serves to process data analysis with pre-entered data
 
 citation.biolutoxR()
 
-> Function for cite the use of the package 
+> Serves to cite the package

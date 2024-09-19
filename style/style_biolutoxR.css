@@ -8,9 +8,9 @@
   --font-header: "Roboto", "sans-serif";
   --font-mono: "Roboto", "sans-serif";
   /* Couleurs */
-  --color-black:        #212129;
-  --color-blue:         #46b1e1;
-  --color-light-blue:   #e3f3fa;
+  --color-black:        #000000;
+  --color-blue:         #000000;
+  --color-light-blue:   #9ac9e0;
   --color-white:        #ffffff;
 }
 

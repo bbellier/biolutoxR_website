@@ -5,6 +5,6 @@ output:
     toc: true
 ---
 
-To cite this package, please use: in prep.
+To cite the *biolutoxR* package, please use: in prep.
 
-Or use the "citation.biolutoxR()" function which print the same citation format.
+Or use the "*citation.biolutoxR()*" function which presents the same citation format.

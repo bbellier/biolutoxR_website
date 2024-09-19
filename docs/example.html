@@ -88,7 +88,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Home: Example</title>
+  <title>🏠 Home: Example</title>
 
 
   <link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"/>
@@ -96,14 +96,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Home: Example"/>
+  <meta property="og:title" content="🏠 Home: Example"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Home"/>
+  <meta property="og:site_name" content="🏠 Home"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Home: Example"/>
+  <meta property="twitter:title" content="🏠 Home: Example"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
@@ -1926,9 +1926,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --font-header: "Roboto", "sans-serif";
     --font-mono: "Roboto", "sans-serif";
     /* Couleurs */
-    --color-black:        #212129;
-    --color-blue:         #46b1e1;
-    --color-light-blue:   #e3f3fa;
+    --color-black:        #000000;
+    --color-blue:         #000000;
+    --color-light-blue:   #9ac9e0;
     --color-white:        #ffffff;
   }
 
@@ -2181,9 +2181,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --font-header: "Roboto", "sans-serif";
     --font-mono: "Roboto", "sans-serif";
     /* Couleurs */
-    --color-black:        #212129;
-    --color-blue:         #46b1e1;
-    --color-light-blue:   #e3f3fa;
+    --color-black:        #000000;
+    --color-blue:         #000000;
+    --color-light-blue:   #9ac9e0;
     --color-white:        #ffffff;
   }
 
@@ -2263,7 +2263,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <!--/radix_placeholder_site_in_header-->
 
-  <link rel="stylesheet" href="style/style_microtoxR.css" type="text/css"/>
+  <link rel="stylesheet" href="style/style_biolutoxR.css" type="text/css"/>
 
 </head>
 
@@ -2280,14 +2280,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">Home</a>
-<a href="about.html">About</a>
-<a href="functions.html">Functions</a>
-<a href="example.html">Example</a>
-<a href="citation.html">Citation</a>
+<a href="index.html" class="title">🏠 Home</a>
+<a href="about.html">🦠 About</a>
+<a href="functions.html">🔢 Functions</a>
+<a href="example.html">📈 Example</a>
+<a href="citation.html">✏️ Citation</a>
 </div>
 <div class="nav-right">
-<a href="https://github.com/bbellier/microtoxR_package">Github</a>
+<a href="https://github.com/bbellier/biolutoxR_package">biolutoxR github 💻</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2306,55 +2306,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<p>Suppose we need to compare the toxicity induced by substance A and substance B, then we use a standardised Microtox test to quantify the observed effects of these substances on the bioluminescence of a marine bacterium.</p>
-<p>Following the laboratory tests, consider this data set:</p>
-<p><img src="images/article_tables_example.png"
-     alt="raw_data"
-     style="float: left; margin-right: 10px;"/></p>
-<p>After obtain these data, you can use the following function of the microtoxR package:</p>
-<blockquote>
-<p>pak::pkg_install(“bbellier/microtoxR_package”)</p>
-</blockquote>
-<blockquote>
-<p>library(microtoxR)</p>
-</blockquote>
-<blockquote>
-<p>run.microtoxR()</p>
-</blockquote>
-<p>A window opens and you can read a description of how the Microtox test and the package work as follows:</p>
-<p><img src="images/presentation_tab.png"
-     alt="presentation"
-     style="float: left; margin-right: 10px;"/></p>
-<p>Then you can see that the data are filled in the boxes for the “Scheme”, “Time 5”, “Time 15” and “Time 30” tabs:</p>
-<p><img src="images/scheme_tab.png"
-     alt="scheme"
-     style="float: left; margin-right: 10px;"/></p>
-<p><img src="images/t5_tab.png"
-     alt="t5"
-     style="float: left; margin-right: 10px;"/></p>
-<p><img src="images/t15_tab.png"
-     alt="t15"
-     style="float: left; margin-right: 10px;"/></p>
-<p><img src="images/t30_tab.png"
-     alt="t30"
-     style="float: left; margin-right: 10px;"/></p>
-<p>The package after arrange and calculate all the need metrics.</p>
-<p>1/ You can see the final data table in the Table tab:</p>
-<p><img src="images/table_tab.png"
-     alt="table"
-     style="float: left; margin-right: 10px;"/></p>
-<p>2/ You can construct a simple plot in the first part of the Plot tab:</p>
-<p><img src="images/plot_tab1.png"
-     alt="plot1"
-     style="float: left; margin-right: 10px;"/></p>
-<p>3/ You can view the EC50/CE20 values and a plot in the second part of the Plot tab:</p>
-<p><img src="images/plot_tab2.png"
-     alt="plot2"
-     style="float: left; margin-right: 10px;"/></p>
-<p>At the end to quit the application, you can use the Exit tab:</p>
-<p><img src="images/exit_tab.png"
-     alt="exit"
-     style="float: left; margin-right: 10px;"/></p>
+<p>Soon …</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2369,9 +2321,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom">
 <h3 id="updates-and-corrections">Corrections</h3>
-<p>If you see mistakes or want to suggest changes, please <a href="https://github.com/bbellier/microtoxR_website.com/issues/new">create an issue</a> on the source repository.</p>
+<p>If you see mistakes or want to suggest changes, please <a href="https://github.com/bbellier/biolutoxR_website.com/issues/new">create an issue</a> on the source repository.</p>
 <h3 id="reuse">Reuse</h3>
-<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Source code is available at <a href="https://github.com/bbellier/microtoxR_website.com">https://github.com/bbellier/microtoxR_website.com</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
+<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Source code is available at <a href="https://github.com/bbellier/biolutoxR_website.com">https://github.com/bbellier/biolutoxR_website.com</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
 </div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
