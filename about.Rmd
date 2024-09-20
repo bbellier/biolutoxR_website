@@ -7,7 +7,7 @@ output:
 
 ## What is the aim of the biolutoxR package?
 
-The *biolutoxR* package is useful for data analysis of toxicity tests based on bacterial bioluminescence inhibition ([What is the toxicity test based on bacterial bioluminescence inhibition?]).
+The *biolutoxR* package is useful for data analysis of toxicity tests based on bacterial bioluminescence inhibition.
 
 A detailed presentation of this tool is available in the following article: in prep.
 
