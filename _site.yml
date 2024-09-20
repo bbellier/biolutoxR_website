@@ -18,7 +18,9 @@ navbar:
     - text: "✏️ Citation" 
       href: citation.html 
   right:
-    - text: "biolutoxR github 💻"
+    - text: "package github 💻"
+      href: "https://github.com/bbellier/biolutoxR_package"
+    - text: "website github 💻"
       href: "https://github.com/bbellier/biolutoxR_package"
 output: 
   distill::distill_article:

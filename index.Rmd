@@ -1,9 +1,7 @@
 ---
-title: "Welcome to the biolutoxR website!"
+title: "Welcome to the website of the biolutoxR package <span style='color: #979696;'>v.0.1.0</span>"
 image: "img/logo_sh.png"
 links:
-  - label: 'Github <i class="fab fa-github fa-lg"></i> package'
-    url: "https://github.com/bbellier/biolutoxR_package"
   - label: "Le Picard, C."
     url: "https://www.researchgate.net/profile/Coralie-Le-Picard"
   - label: "Bellier, B."
@@ -14,3 +12,12 @@ site: distill::distill_website
 ---
 
 *This tool facilitates data analysis for toxicity tests based on bacterial bioluminescence inhibition.*
+
+<br>
+
+Article of the package is available in this link: 
+
+<br>
+
+[License: GPL ≥ 3]{style="font-size: 0.8em;"}
+

@@ -2,13 +2,15 @@
 title: "biolutoxR package"
 output:
   distill::distill_article:
-    toc: false
+    toc: true
 ---
 
 ## What is the aim of the biolutoxR package?
 
-The *biolutoxR* package is useful for data analysis of toxicity tests based on bacterial bioluminescence inhibition (show the information about these tests).
+The *biolutoxR* package is useful for data analysis of toxicity tests based on bacterial bioluminescence inhibition ([What is the toxicity test based on bacterial bioluminescence inhibition?]).
 
 A detailed presentation of this tool is available in the following article: in prep.
 
-## What is a toxicity test based on bacterial bioluminescence inhibition?
+## What is the toxicity test based on bacterial bioluminescence inhibition?
+
+Bacterial bioassays using bioluminescence inhibition are used to assess the bioluminescent response of bacteria to exposure to a solution of interest at different exposure times, typically 5, 15 and 30 minutes. Under optimal conditions, these bacteria produce bioluminescence. This bioluminescence is directly linked to the respiratory metabolic process of the bacteria. However, when bacteria are exposed to a toxic substance, this metabolic process is disrupted, leading to an inhibition of bioluminescence. This reaction is therefore exploited in this type of test to study the direct link between light intensity and the level of toxicity of a sample of interest compared with a control sample.

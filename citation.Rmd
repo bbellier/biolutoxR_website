@@ -7,4 +7,16 @@ output:
 
 To cite the *biolutoxR* package, please use: in prep.
 
-Or use the "*citation.biolutoxR()*" function which presents the same citation format.
+Or use the "*citation.biolutoxR()*" function which presents the same citation format. The result of this code line:
+
+```{r, include=FALSE}
+
+citation.biolutoxR <- function() {
+  print("To cite this document: in prep. Also, you can find all about this package in: https://bbellier.github.io/biolutoxR_website/.")
+}
+```
+
+```{r, echo=FALSE}
+
+citation.biolutoxR() 
+```
