@@ -13,6 +13,8 @@ navbar:
       href: about.html 
     - text: "🔢 Functions" 
       href: functions.html 
+    - text: "📋 .xlsx format" 
+      href: format.html 
     - text: "📈 Example" 
       href: example.html 
     - text: "✏️ Citation" 
@@ -21,7 +23,7 @@ navbar:
     - text: "package github 💻"
       href: "https://github.com/bbellier/biolutoxR_package"
     - text: "website github 💻"
-      href: "https://github.com/bbellier/biolutoxR_package"
+      href: "https://github.com/bbellier/biolutoxR_website"
 output: 
   distill::distill_article:
     css: style/style_biolutoxR.css
