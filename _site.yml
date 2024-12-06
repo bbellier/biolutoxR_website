@@ -13,8 +13,10 @@ navbar:
       href: about.html 
     - text: "🔢 Functions" 
       href: functions.html 
-    - text: "📋 .xlsx format" 
-      href: format.html 
+    - text: "✅ Tips" 
+      menu:
+      - text: ".xlsx format" 
+        href: format.html 
     - text: "📈 Example" 
       href: example.html 
     - text: "✏️ Citation" 

@@ -5,20 +5,6 @@ output:
     toc: true
 ---
 
-### Structure of .xlsx file
-
-Five tabs:
-
--   scheme: to prepare the details of your exposure conditions.
-
--   time 1: to enter the value of your bioluminescence measurement at time 1.
-
--   time 2: to enter the value of your bioluminescence measurement at time 2.
-
--   time 3: to enter the value of your bioluminescence measurement at time 3.
-
--   structure: to visualize the matrix of your experiment.
-
 ### Download
 
 ```{r package, echo = FALSE, warning = FALSE, error = FALSE, message = FALSE}
@@ -53,3 +39,27 @@ download_file(
   self_contained = FALSE
 )
 ```
+
+### Structure of .xlsx file
+
+Five tabs:
+
+-   scheme: to prepare the details of your exposure conditions.
+
+    ![](images/clipboard-1324469821.png){width="408"}
+
+-   time 1: to enter the value of your bioluminescence measurement at time 1.
+
+    ![](images/clipboard-140305653.png){width="271"}
+
+-   time 2: to enter the value of your bioluminescence measurement at time 2.
+
+    ![](images/clipboard-140305653.png){width="271"}
+
+-   time 3: to enter the value of your bioluminescence measurement at time 3.
+
+    ![](images/clipboard-140305653.png){width="271"}
+
+-   structure: to visualize the matrix of your experiment.
+
+    ![](images/clipboard-632635986.png){width="427"}
